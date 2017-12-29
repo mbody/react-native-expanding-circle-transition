@@ -1,8 +1,9 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import { Easing, Modal, Dimensions, Animated } from 'react-native'
 const { width, height } = Dimensions.get('window')
 const reactMixin = require('react-mixin')
 import TimerMixin from 'react-timer-mixin'
+import PropTypes from 'prop-types'
 
 class CircleTransition extends Component {
   constructor (props) {
